@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Smoke Test">
+    <test name = "Authentication Test">
+        <classes>
+            <class name = "ListUsers" />
+            <class name = "SingleUser" />
+            <class name = "SingleUserNotFound" />
+            <class name = "ListResource" />
+            <class name = "SingleResource" />
+            <class name = "SingleResourceNotFound" />
+            <class name = "CreateUser" />
+            <class name = "UpdateUser" />
+            <class name = "PatchUser" />
+            <class name = "DeleteUser" />
+            <class name = "RegisterSuccessful" />
+            <class name = "RegisterUnsuccessful" />
+            <class name = "LoginSuccessful" />
+            <class name = "LoginUnsuccessful" />
+            <class name = "DelayedResponse" />
+        </classes>
+    </test>
+</suite>
